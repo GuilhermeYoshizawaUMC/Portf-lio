@@ -197,15 +197,21 @@ h1 {
 .captcha-box {
     background: white;
     color: #333;
-    padding: 15px 25px;
-    border-radius: 4px;
+    padding: 15px 20px;
+    border-radius: 8px;
     display: inline-flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     margin: 20px 0;
 }
 
-.hcaptcha-logo { width: 30px; }
+.captcha-box input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hcaptcha-logo { width: 120px; }
 
 .btn-submit {
     background: transparent;
