@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Backend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="menu-pilula">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="foto-perfil">
+                <img src="img/minha-foto.jpg.png" alt="Foto de Guilherme Yoshizawa">
+            </div>
+            <p class="saudacao">Olá! Eu sou o Guilherme Yoshizawa.</p>
+            <h1>Desenvolvedor Backend <br></h1>
+            <p class="descricao">
+                Focado em criar soluções robustas e escaláveis utilizando Java, Spring Boot, SQL e AWS.
+            </p>
+            <div class="botoes">
+                <a href="#contato" class="btn-principal">Me contate &rarr;</a>
+                <a href="https://github.com/GuilhermeYoshizawaUMC" target="_blank" class="btn-secundario">GitHub &darr;</a>
+                <a href="https://www.linkedin.com/in/guilherme-yoshizawa-52b134218/" target="_blank" class="btn-secundario">Linkedin &darr;</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre-mim">
+            <div class="container-sobre">
+                <div class="foto-container-retangular">
+                    <img src="img/minha-foto2.jpg.jpeg" alt="Foto Profissional">
+                </div>
+
+                <div class="conteudo-texto">
+                    <span class="tag-intro">Introdução</span>
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Sou desenvolvedor de software focado em tecnologias backend. 
+                        Atualmente busco oportunidades com Java, Spring Boot, SQL e AWS para criar sistemas escaláveis.
+                    </p>
+
+                    <div class="cards-info">
+                        <article class="card">
+                            <h3>Linguagens</h3>
+                            <p>Java, C++, SQL</p>
+                        </article>
+                        <article class="card">
+                            <h3>Formação</h3>
+                            <p>Sistemas de Informação.</p>
+                            <p>Técnico em Mecatrônica.</p>    
+                        </article>
+                        <article class="card">
+                            <h3>Projetos</h3>
+                            <p>Projetos no GitHub</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-secao">
+            <div class="container-contato">
+                <span class="tag-intro"></span>
+                <h2>Entre em contato</h2>
+                <p class="instrucao">Eu adoraria ouvir você! Se tiver alguma dúvida ou feedback, por favor use o formulário abaixo.</p>
+
+                <form class="formulario-contato">
+                    <div class="linha-input">
+                        <input type="text" placeholder="Coloque seu nome" required>
+                        <input type="email" placeholder="Coloque seu email" required>
+                    </div>
+                    <textarea placeholder="Escreva sua mensagem" rows="6" required></textarea>
+                    
+                    <div class="captcha-placeholder">
+                        <div class="captcha-box">
+                            <input type="checkbox" id="human">
+                            <label for="human">Sou humano</label>
+                            <img src="img/captcha-check.png" alt="hCaptcha" class="hcaptcha-logo">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit now &rarr;</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Guilherme Yoshizawa - 2026</p>
+    </footer>
+
+</body>
+</html>
