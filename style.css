@@ -237,3 +237,50 @@ footer {
     color: #666;
     border-top: 1px solid rgba(255,255,255,0.05);
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .foto-container-retangular img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cards-info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .linha-input {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu-pilula {
+        padding: 10px 20px;
+        width: 90%;
+    }
+
+    .menu-pilula ul {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .menu-pilula a {
+        font-size: 12px;
+    }
+
+    .captcha-box {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
